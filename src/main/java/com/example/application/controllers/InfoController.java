@@ -1,6 +1,5 @@
 package com.example.application.controllers;
 
-import com.example.application.entities.InfoEntity;
 import com.example.application.services.InfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -8,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
+import java.io.*;
 
 @RestController
 @RequestMapping("/file")
